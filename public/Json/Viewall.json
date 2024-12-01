@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "image": "https://wrogn.com/cdn/shop/files/3_9f276af7-2eff-4422-9dd3-5747b9724320.jpg?v=1729928962&width=360",
+    "title": "Pink Frost Urban Sweatshirt",
+    "price": "2,599",
+    "category": "Sweatshirts",
+    "color": ["Pink", "White"],
+    "size": ["S", "M", "L", "XL"],
+    "material": "Cotton",
+    "sort": "Featured"
+  },
+  {
+    "id": 2,
+    "image": "https://wrogn.com/cdn/shop/files/1_d699c2ac-451e-43d3-ae9e-6dd1ae52df0d.jpg?v=1729609790&width=360",
+    "title": "Khaki Blend Classic Cargo Jogger",
+    "price": "2,309",
+    "category": "Cargos",
+    "color": ["Khaki", "Olive"],
+    "size": ["M", "L", "XL", "XXL"],
+    "material": "Polyester Blend",
+    "sort": "New Arrivals"
+  },
+  {
+    "id": 3,
+    "image": "https://wrogn.com/cdn/shop/files/3_59226820-f90c-4f9d-8a55-99a305df3d07.jpg?v=1729608022&width=360",
+    "title": "Blue Strokes Denim Jacket",
+    "price": "2,799",
+    "category": "Jackets",
+    "color": ["Blue", "Light Blue"],
+    "size": ["S", "M", "L"],
+    "material": "Denim",
+    "sort": "Best Selling"
+  },
+  {
+    "id": 4,
+    "image": "https://wrogn.com/cdn/shop/files/1_81aa2e47-ba3a-4221-b42a-66afc68d2e01.jpg?v=1729609801&width=360",
+    "title": "Apex Black Tapered Fit Denim Jeans",
+    "price": "1,819",
+    "category": "Jeans",
+    "color": ["Black"],
+    "size": ["M", "L", "XL"],
+    "material": "Denim",
+    "sort": "Featured"
+  },
+  {
+    "id": 5,
+    "image": "https://wrogn.com/cdn/shop/files/1_382c5d93-fe9c-4194-9307-89768af20001.jpg?v=1712130857&width=360",
+    "title": "Solid Brown Classic Sneakers",
+    "price": "1,814",
+    "category": "Footwear",
+    "color": ["Brown"],
+    "size": [40, 42, 44],
+    "material": "Leather",
+    "sort": "Best Selling"
+  },
+  {
+    "id": 6,
+    "image": "https://wrogn.com/cdn/shop/files/1_fcc76f3f-56f0-46da-955d-ea664c1dc362.jpg?v=1712130539&width=360",
+    "title": "Wrogn Dash White Sneakers",
+    "price": "1,814",
+    "category": "Footwear",
+    "color": ["White"],
+    "size": [40, 41, 42, 44],
+    "material": "Synthetic",
+    "sort": "Best Selling"
+  },
+  {
+    "id": 7,
+    "image": "https://wrogn.com/cdn/shop/files/5_5612fbaf-9838-4477-a279-9b45f87b8d40.jpg?v=1729609551&width=360",
+    "title": "Navy Blaze Nylon Jacket",
+    "price": "3,149",
+    "category": "Jackets",
+    "color": ["Navy Blue"],
+    "size": ["S", "M", "L"],
+    "material": "Nylon",
+    "sort": "New Arrivals"
+  },
+  {
+    "id": 8,
+    "image": "https://wrogn.com/cdn/shop/files/1_06a1997a-6ef5-4c64-b858-e9382708e491.jpg?v=1717492416&width=360",
+    "title": "Monster Scribble Baseball Cap",
+    "price": "934",
+    "category": "Caps",
+    "color": ["Black", "White"],
+    "size": ["Free Size"],
+    "material": "Cotton",
+    "sort": "New Arrivals"
+  },
+  {
+    "id": 9,
+    "image": "https://wrogn.com/cdn/shop/files/2_fba8be94-a89a-4bab-8928-b59750c0c7d7.jpg?v=1717492407&width=360",
+    "title": "Maroon Block Baseball Cap",
+    "price": "899",
+    "category": "Caps",
+    "color": ["Maroon"],
+    "size": ["Free Size"],
+    "material": "Cotton"
+  },
+  {
+    "id": 10,
+    "image": "https://wrogn.com/cdn/shop/files/1_e7ac67bd-8772-4721-848f-78fe847a00bf.jpg?v=1713806548&width=360",
+    "title": "Checked Perfection Maroon Blazer",
+    "price": "2,999",
+    "category": "Blazers",
+    "color": ["Maroon"],
+    "size": ["M", "L", "XL"],
+    "material": "Wool Blend"
+  },
+  {
+    "id": 11,
+    "image": "https://wrogn.com/cdn/shop/files/1_49e834f3-10d6-4236-977c-a08f3504fd4b.jpg?v=1704540145&width=360",
+    "title": "Printed Comfort Fit Jogger",
+    "price": "1,429",
+    "category": "Joggers",
+    "color": ["Gray"],
+    "size": ["S", "M", "L", "XL"],
+    "material": "Cotton",
+    "sort": "Price High to Low"
+  },
+  {
+    "id": 12,
+    "image": "https://wrogn.com/cdn/shop/files/2_d99ea1c6-64b2-4f25-a160-d09a6d646599.jpg?v=1714368553&width=360",
+    "title": "Maroon Relaxed Fut Solid Shorts",
+    "price": "1,039",
+    "category": "Shorts",
+    "color": ["Maroon"],
+    "size": ["M", "L", "XL"],
+    "material": "Polyester",
+    "sort": "Price Low to High"
+  },
+  {
+    "id": 13,
+    "image": "https://wrogn.com/cdn/shop/files/3_71315688-5b87-43ef-b880-199e53913ada.jpg?v=1718358346&width=360",
+    "title": "Snug Monster Black Sneaker Socks",
+    "price": "349",
+    "category": "Socks",
+    "color": ["Black"],
+    "size": ["Free Size"],
+    "material": "Cotton",
+    "sort": "Price Low to High"
+  }
+]

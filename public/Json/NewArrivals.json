@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1,
+    "image": "https://wrogn.com/cdn/shop/files/3_9f276af7-2eff-4422-9dd3-5747b9724320.jpg?v=1729928962&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,819",
+    "title": "Pink Frost Urban Sweatshirt",
+    "category": "Sweatshirts",
+    "isDrop": true,
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://wrogn.com/cdn/shop/files/1_a46c46f8-0218-4189-a8ee-029fad8904c5.jpg?v=1728552829&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,919",
+    "title": "Striped Blues Casual Shirt",
+    "category": "Shirts",
+    "isDrop": true,
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://wrogn.com/cdn/shop/files/1_250cc15a-6557-4e13-9f64-3aea432f854d.jpg?v=1728553000&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "2,078",
+    "title": "Classic Navy Striped Shirt",
+    "category": "Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://wrogn.com/cdn/shop/files/1_436c7e1d-7933-441d-acdf-465ad19c29fb.jpg?v=1728557619&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,679",
+    "title": "Multi Patterns Grey AOP Shirt",
+    "category": "Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://wrogn.com/cdn/shop/files/1_256242e3-fb32-45d3-88a8-f80bde8a04cb.jpg?v=1729610912&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,839",
+    "title": "Black & White Checked Urban Shirt",
+    "category": "Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://wrogn.com/cdn/shop/files/1_a25d48ce-4e59-4f59-bebb-738d1429b24b.jpg?v=1728557450&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,679",
+    "title": "Elite Navy Full Sleeve Striped Shirt",
+    "category": "Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://wrogn.com/cdn/shop/files/1_fa44ba60-2626-4da2-a981-2a69f4070d59.jpg?v=1729611071&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,438",
+    "title": "Pink Stripes Pique Polo T-Shirts",
+    "category": "T-Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://wrogn.com/cdn/shop/files/1_726730a1-5b27-49f4-a09d-501ae56b4ac8.jpg?v=1729609404&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "559",
+    "title": "Mint Green Crew Neck T-Shirt",
+    "category": "T-Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://wrogn.com/cdn/shop/files/1_4918c1fc-8fbf-45f2-8220-df69b5e0be29.jpg?v=1729609372&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "699",
+    "title": "Black Mode Crew Neck T-Shirt",
+    "category": "T-Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://wrogn.com/cdn/shop/files/1_ba1bfb49-8c37-47a9-960e-68ee7d5e6609.jpg?v=1729609316&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,038",
+    "title": "Yellow Split Colour-blocked Polo T-Shirt",
+    "category": "T-Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://wrogn.com/cdn/shop/files/1_cb61cf2f-8bd0-4fce-95c9-224597e3d1a6.jpg?v=1729845600&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "799",
+    "title": "Indian Infantry by A47 Never Forget T-Shirt",
+    "category": "T-Shirts",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://wrogn.com/cdn/shop/files/1_81aa2e47-ba3a-4221-b42a-66afc68d2e01.jpg?v=1729609801&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,818",
+    "title": "Apex Black Tapered Fit Denim Jeans",
+    "category": "Jeans",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://wrogn.com/cdn/shop/files/1_e89f96da-7aea-4e51-b28d-8f290be0caff.jpg?v=1728557048&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "2,798",
+    "title": "Printed Blue Casual Jeans",
+    "category": "Jeans",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://wrogn.com/cdn/shop/files/1_83de5170-99ed-4a95-8083-7e099c7b9e79.jpg?v=1728557033&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "2,398",
+    "title": "Distressed Apex Brown Jeans",
+    "category": "Jeans",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://wrogn.com/cdn/shop/files/1_33ce8d34-04fb-460d-bf2c-ba94fe8fded1.jpg?v=1729609416&width=360",
+    "label": "FRESH ARRIVALS",
+    "price": "1,818",
+    "title": "Dark Shade Loose Fit Jeans",
+    "category": "Jeans",
+    "sizes": [
+      { "size": "S" },
+      { "size": "M" },
+      { "size": "L" },
+      { "size": "XL" },
+      { "size": "2XL" }
+    ]
+  }
+]

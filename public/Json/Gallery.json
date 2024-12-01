@@ -1,0 +1,51 @@
+[
+    {
+      "id": "image1",
+      "image": "https://wrogn.com/cdn/shop/files/storm_black_hooded_jacket.webp?v=1732515739&width=533",
+      "footer": {
+        "id": "image1",
+        "image": "https://wrogn.com/cdn/shop/files/storm_black_hooded_jacket.webp?v=1732515739&width=533",
+        "title": "Storm Black Hooded Jacket",
+        "price": 2099,
+        "original_price": 2999,
+        "discount": "30% OFF"
+      }
+    },
+    {
+      "id": "image2",
+      "image": "https://wrogn.com/cdn/shop/files/sandstorm.webp?v=1732515739&width=533",
+      "footer": {
+        "id": "image2",
+        "image": "https://wrogn.com/cdn/shop/files/sandstorm.webp?v=1732515739&width=533",
+        "title": "Sandstorm Hoodie",
+        "price": 2299,
+        "original_price": 3199,
+        "discount": "28% OFF"
+      }
+    },
+    {
+      "id": "image3",
+      "image": "https://wrogn.com/cdn/shop/files/pastel_varsity_bomber.webp?v=1732515739&width=533",
+      "footer": {
+        "id": "image3",
+        "image": "https://wrogn.com/cdn/shop/files/pastel_varsity_bomber.webp?v=1732515739&width=533",
+        "title": "Pastel Varsity Bomber Jacket",
+        "price": 2599,
+        "original_price": 3499,
+        "discount": "25% OFF"
+      }
+    },
+    {
+      "id": "image4",
+      "image": "https://wrogn.com/cdn/shop/files/DSF0204-4.jpg?v=1730095979",
+      "footer": {
+        "id": "image4",
+        "image": "https://wrogn.com/cdn/shop/files/DSF0204-4.jpg?v=1730095979",
+        "title": "Classic Checked Shirt",
+        "price": 1999,
+        "original_price": 2799,
+        "discount": "29% OFF"
+      }
+    }
+  ]
+  
