@@ -1,6 +1,6 @@
 [
     {
-        "id": "image1",
+        "id": 1,
         "image": "https://wrogn.com/cdn/shop/files/storm_black_hooded_jacket.webp?v=1732515739&width=533",
         "title": "Ice Blue Classic Checked Shirt",
         "price": 2099,
@@ -8,7 +8,7 @@
         "discount": "30% OFF"
     },
     {
-        "id": "image2",
+        "id": 2,
         "image": "https://wrogn.com/cdn/shop/files/sandstorm.webp?v=1732515739&width=533",
         "title": "Ice Blue Classic Checked Shirt",
         "price": 2099,
@@ -16,7 +16,7 @@
         "discount": "30% OFF"
     },
     {
-        "id": "image3",
+        "id": 3,
         "image": "https://wrogn.com/cdn/shop/files/pastel_varsity_bomber.webp?v=1732515739&width=533",
         "title": "Ice Blue Classic Checked Shirt",
         "price": 2099,
@@ -24,7 +24,7 @@
         "discount": "30% OFF"
     },
     {
-        "id": "image4",
+        "id": 4,
         "image": "https://wrogn.com/cdn/shop/files/DSF0204-4.jpg?v=1730095979",
         "title": "Ice Blue Classic Checked Shirt",
         "price": 2099,

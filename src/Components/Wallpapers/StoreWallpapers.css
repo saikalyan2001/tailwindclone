@@ -1,28 +1,27 @@
 .store {
-    background-image: url(https://wrogn.com/cdn/shop/files/STORE-WEBSITE-BANNER639X359.webp?v=1722239596);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
+  background-image: url(https://wrogn.com/cdn/shop/files/STORE-WEBSITE-BANNER639X359.webp?v=1722239596);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
 }
 
-.image1{
-    background-image: url(https://wrogn.com/cdn/shop/files/STORE-WEBSITE-BANNER639X359.webp?v=1722239596);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
+.image1 {
+  background-image: url(https://wrogn.com/cdn/shop/files/STORE-WEBSITE-BANNER639X359.webp?v=1722239596);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
 }
 
-.image2{
-    background-image: url(https://wrogn.com/cdn/shop/files/STORE-WEBSITE-BANNER-308X385.webp?v=1722239595);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
+.image2 {
+  background-image: url(https://wrogn.com/cdn/shop/files/STORE-WEBSITE-BANNER-308X385.webp?v=1722239595);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
 }
 
-.image3{
-    background-image: url(https://wrogn.com/cdn/shop/files/STORE-WEBSITE-BANNER-308X385-_2.webp?v=1722239595);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
+.image3 {
+  background-image: url(https://wrogn.com/cdn/shop/files/STORE-WEBSITE-BANNER-308X385-_2.webp?v=1722239595);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
 }
-

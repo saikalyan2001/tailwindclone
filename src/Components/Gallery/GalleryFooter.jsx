@@ -1,14 +1,33 @@
 import React, { useEffect, useState } from "react";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
 import ArrowOutwardRoundedIcon from "@mui/icons-material/ArrowOutwardRounded";
+import { useNavigate } from "react-router-dom";
+import ModalGallery from "./ModalGallery";
 
 const GalleryFooter = ({footerdata}) => {
 
-  const { image, title, price, original_price, discount } = footerdata;
+  const { image, title, price, original_price, discount, sizes } = footerdata;
+
+  const [isQuickView,setIsQuickView] = useState(false);
+
+  const navigate = useNavigate();
+
+  const handleProduct = () => {
+    navigate("/products", { state: footerdata })
+  }
+
+  const handleQuickView = (event) => {
+    event.stopPropagation();
+    setIsQuickView(!isQuickView)
+    console.log("Quick View");
+  }
+
+  // console.log("sizes:", sizes);
+  
 
   return (
    <>
-       <div className="flex gap-2 bg-white p-3 mt-3 rounded-lg cursor-pointer">
+       <div className="flex gap-2 bg-white p-3 mt-3 rounded-lg cursor-pointer" onClick={handleProduct}>
        <img
          src={image}
          alt="img"
@@ -34,7 +53,7 @@ const GalleryFooter = ({footerdata}) => {
              </div>
            </div>
          <div className="flex gap-2 text-nowrap">
-           <button className="border border-gray-400 text-xs font-medium w-fit px-3 py-1">
+           <button className="border border-gray-400 text-xs font-medium w-fit px-3 py-1" disabled={isQuickView} onClick={handleQuickView}>
              QUICK VIEW
            </button>
            <button className="border border-gray-400 text-xs text-pink-600 font-thin w-fit px-1 py-1">
@@ -43,6 +62,8 @@ const GalleryFooter = ({footerdata}) => {
          </div>
        </div>
      </div>
+
+     {isQuickView ? <ModalGallery Data={footerdata} isQuickView={isQuickView} setIsQuickView={setIsQuickView} /> : ''}     
    </>
 
   );

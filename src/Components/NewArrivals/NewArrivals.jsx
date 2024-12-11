@@ -5,6 +5,10 @@ import AddtobagModal from "./AddtobagModal";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import { collection, addDoc, query, where, getDocs, deleteDoc, updateDoc } from "firebase/firestore"; // Add this import to get addDoc
 import { firestore } from "../../firebase/firebase";
+import Products from "../Products/Products";
+import { useDispatch } from "react-redux";
+import { updateProduct } from "../../Redux/action";
+import { useNavigate } from "react-router-dom";
 
 const NewArrivals = () => {
   const [isAdd, setIsAdd] = useState(false);
@@ -13,16 +17,32 @@ const NewArrivals = () => {
   const [products, setProducts] = useState([]);
   const [filter, setFilter] = useState("All"); // State for filtering
   const [modalData, setModalData] = useState([])
+  const [newProduct, setNewProduct] = useState([])
+  
+
+  const dispatch = useDispatch();
+
+  const navigate = useNavigate();
+
+  const handleNavigate = (product) => {
+    navigate("/products", { state: product })
+  }
+  
 
   useEffect(() => {
     console.log("Fetching products");
     fetch("/Json/NewArrivals.json")
       .then((response) => response.json())
-      .then((data) => setProducts(data))
+      .then((data) => {
+        setProducts(data);
+        dispatch(updateProduct(data));
+      })
       .catch((error) => console.error("Error fetching the products:", error));
-
     fetchFavorites();
-  }, []);
+  }, [dispatch]);
+
+  
+
 
   const fetchFavorites = async () => {
     try {
@@ -165,7 +185,7 @@ const NewArrivals = () => {
         </div>
         <div className="grid grid-cols-5 gap-4 mt-10 justify-items-center mx-20 w-fit">
           {filteredProducts.map((product, index) => (
-            <div key={index} className="cursor-pointer">
+            <div key={index} className="cursor-pointer" onClick={() => handleNavigate(product)}>
               <div className="relative">
                 <img
                   src={product.image}
@@ -176,7 +196,10 @@ const NewArrivals = () => {
                 />
                 <div
                   className="absolute top-3 right-3 bg-white rounded-full p-1"
-                  onClick={() => handleFav(index, product)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleFav(index, product)}
+                  }
                 >
                   {isFav[product.image] ? (
                     <FavoriteIcon className="text-red-500" />
@@ -196,7 +219,12 @@ const NewArrivals = () => {
                 <button
                   className="border border-gray-400 rounded-lg py-2 px-16 font-semibold"
                   // onClick={() => handleAddtobag(product)}
-                  onClick={() => handleModal(product)}
+                  disabled={isAdd}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleModal(product);
+                  }
+                  } 
                 >
                   Add to Bag
                 </button>

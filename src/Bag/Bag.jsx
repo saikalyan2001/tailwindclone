@@ -4,7 +4,6 @@ import DeleteOutlinedIcon from "@mui/icons-material/DeleteOutlined";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
-import "./Bag.css";
 import {
   collection,
   deleteDoc,
@@ -15,6 +14,7 @@ import {
 import { firestore } from "../firebase/firebase";
 import { useDispatch, useSelector } from "react-redux";
 import { dex, size } from "../Redux/action";
+import { useNavigate } from "react-router-dom";
 
 const Bag = ({ isOpen, setIsOpen }) => {
   const [products, setProducts] = useState([]);
@@ -23,6 +23,15 @@ const Bag = ({ isOpen, setIsOpen }) => {
   const [sizeIndex, setSizeIndex] = useState();
   const [isUpdated, setIsUpdated] = useState(false);
   const [updatedSize, setUpdatedSize] = useState();
+
+  const navigate = useNavigate();
+
+  const handleProduct = (product) => {
+    navigate("/products", { state: product })
+  }
+
+  console.log("products at BAG:", products);
+  
 
   const dispatch = useDispatch();
 
@@ -35,17 +44,13 @@ const Bag = ({ isOpen, setIsOpen }) => {
   const newUpdatedIndex = state.newIndex;
   console.log("newUpdatedIndex:", newUpdatedIndex);
 
-  const handleSizeDropDown = (index) => {
+  const handleSizeDropDown = (index , i) => {
     console.log("yes Yes");
     console.log("index:", index);
-    setSizeIndex(index);
+    setSizeIndex(i);
     setIsDrop(!isDrop);
 
     dispatch(dex(index));
-
-    setTimeout(() => {
-      setSizeIndex(null);
-    }, 100);
   };
 
   const handleSize = (i) => {
@@ -194,7 +199,8 @@ const Bag = ({ isOpen, setIsOpen }) => {
               <img
                 src={product.imageUrl}
                 alt="img"
-                className="w-32 rounded-md"
+                className="w-32 rounded-md cursor-pointer"
+                onClick={() => handleProduct(product)}
               />
               <div className="relative">
                 <div className="flex gap-40">
@@ -211,8 +217,8 @@ const Bag = ({ isOpen, setIsOpen }) => {
                 <p className="text-gray-500 text-sm mt-4">Colour : Pink</p>
                 <div className="flex gap-2">
                   <div
-                    className="flex gap-2 items-center border border-gray-400 font-semibold text-sm w-fit p-1.5 rounded mt-3 cursor-pointer"
-                    onClick={() => handleSizeDropDown(index)}
+                    className="relative flex gap-2 items-center border border-gray-400 font-semibold text-sm w-fit p-1.5 rounded mt-3 cursor-pointer"
+                    onClick={() => handleSizeDropDown(index , product.id)}
                   >
                     <p>
                       Size:{" "}
@@ -223,6 +229,23 @@ const Bag = ({ isOpen, setIsOpen }) => {
                     <div>
                       <ArrowDropDownIcon />
                     </div>
+                    {sizeIndex === product.id && isDrop ? (
+            <div className="absolute top-10 left-0 mt-px flex flex-col gap-2 bg-white border border-gray-400 rounded text-center z-10 overflow-auto font-medium w-fit h-28 px-5 cursor-pointer">
+              {Sizes.map((size, i) => (
+                <p
+                  key={i}
+                  onClick={() => handleSize(size.size)}
+                  className={`${
+                    newUpdatedSize === size.size ? "bg-pink-600" : ""
+                  }`}
+                >
+                  {size.size}
+                </p>
+              ))}
+            </div>
+          ) : (
+            ""
+          )}
                   </div>
 
                   <div className="flex gap-4 items-center border border-gray-400 font-semibold text-sm w-fit p-1.5 rounded mt-3">
@@ -249,26 +272,12 @@ const Bag = ({ isOpen, setIsOpen }) => {
                   </div>
                 </div>
               </div>
+              
             </div>
+            
           ))}
 
-          {isDrop ? (
-            <div className="absolute mt-px flex flex-col gap-2 bg-white border border-gray-400 rounded text-center z-10 overflow-auto font-medium w-fit h-28 px-5 cursor-pointer">
-              {Sizes.map((size, i) => (
-                <p
-                  key={i}
-                  onClick={() => handleSize(size.size)}
-                  className={`${
-                    newUpdatedSize === size.size ? "bg-pink-600" : ""
-                  }`}
-                >
-                  {size.size}
-                </p>
-              ))}
-            </div>
-          ) : (
-            ""
-          )}
+  
 
           <div className="m-5">
             <h3>Coupons</h3>

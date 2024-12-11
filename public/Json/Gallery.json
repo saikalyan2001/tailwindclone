@@ -1,50 +1,78 @@
 [
     {
-      "id": "image1",
+      "id": 1,
       "image": "https://wrogn.com/cdn/shop/files/storm_black_hooded_jacket.webp?v=1732515739&width=533",
       "footer": {
-        "id": "image1",
+        "id": 1,
         "image": "https://wrogn.com/cdn/shop/files/storm_black_hooded_jacket.webp?v=1732515739&width=533",
         "title": "Storm Black Hooded Jacket",
-        "price": 2099,
+        "price": "2,099",
         "original_price": 2999,
-        "discount": "30% OFF"
+        "discount": "30% OFF",
+        "sizes": [
+          { "size": "S" },
+          { "size": "M" },
+          { "size": "L" },
+          { "size": "XL" },
+          { "size": "2XL" }
+        ]
       }
     },
     {
-      "id": "image2",
+      "id": 2,
       "image": "https://wrogn.com/cdn/shop/files/sandstorm.webp?v=1732515739&width=533",
       "footer": {
-        "id": "image2",
+        "id": 2,
         "image": "https://wrogn.com/cdn/shop/files/sandstorm.webp?v=1732515739&width=533",
         "title": "Sandstorm Hoodie",
-        "price": 2299,
+        "price": "2,299",
         "original_price": 3199,
-        "discount": "28% OFF"
+        "discount": "28% OFF",
+        "sizes": [
+          { "size": "S" },
+          { "size": "M" },
+          { "size": "L" },
+          { "size": "XL" },
+          { "size": "2XL" }
+        ]
       }
     },
     {
-      "id": "image3",
+      "id": 3,
       "image": "https://wrogn.com/cdn/shop/files/pastel_varsity_bomber.webp?v=1732515739&width=533",
       "footer": {
-        "id": "image3",
+        "id": 3,
         "image": "https://wrogn.com/cdn/shop/files/pastel_varsity_bomber.webp?v=1732515739&width=533",
         "title": "Pastel Varsity Bomber Jacket",
-        "price": 2599,
+        "price": "2,599",
         "original_price": 3499,
-        "discount": "25% OFF"
+        "discount": "25% OFF",
+        "sizes": [
+          { "size": "S" },
+          { "size": "M" },
+          { "size": "L" },
+          { "size": "XL" },
+          { "size": "2XL" }
+        ]
       }
     },
     {
-      "id": "image4",
+      "id": 4,
       "image": "https://wrogn.com/cdn/shop/files/DSF0204-4.jpg?v=1730095979",
       "footer": {
-        "id": "image4",
+        "id": 4,
         "image": "https://wrogn.com/cdn/shop/files/DSF0204-4.jpg?v=1730095979",
         "title": "Classic Checked Shirt",
-        "price": 1999,
+        "price": "1,999",
         "original_price": 2799,
-        "discount": "29% OFF"
+        "discount": "29% OFF",
+        "sizes": [
+          { "size": "S" },
+          { "size": "M" },
+          { "size": "L" },
+          { "size": "XL" },
+          { "size": "2XL" }
+        ]
       }
     }
   ]

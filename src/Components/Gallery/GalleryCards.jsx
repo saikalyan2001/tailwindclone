@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import GalleryFooter from './GalleryFooter'
+import { useDispatch } from 'react-redux'
+import { galleryData } from '../../Redux/action'
 
 const GalleryCards = () => {
 
   const [data, setData] = useState([])
+  const [productData, setProductData] = useState([])
   
   
 useEffect(() => {
@@ -14,7 +17,11 @@ useEffect(() => {
 }, [])
 
 
-  console.log(data);
+  console.log("data", data);
+
+  const dispatch = useDispatch();
+
+  dispatch(galleryData(data))
   
 
   return (

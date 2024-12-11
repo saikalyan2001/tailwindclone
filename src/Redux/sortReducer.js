@@ -1,7 +1,9 @@
 const intialState = {
     item : "Featured",
     newSize: "",
-    newIndex: ""
+    newIndex: "",
+    product: [],
+    galleryData: []
 }
 
 
@@ -27,6 +29,14 @@ function sortReducer(state=intialState, action) {
             const newIndex = {...state, newIndex: action.payload}
             console.log("newIndex:", newIndex);
             return newIndex
+        case "updateProduct":
+            const newProduct = {...state, product: action.payload}
+            console.log("newProduct yes:", newProduct);
+            return newProduct
+        case "galleryData":
+            const galleryData = {...state, galleryData: action.payload}
+            console.log("galleryData at red:", galleryData);
+            return galleryData
         default:
             return state
     }

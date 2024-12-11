@@ -10,3 +10,11 @@ export function size(s) {
 export function dex(index) {
     return {type: "updateIndex", payload: index}
 }
+
+export function updateProduct(newPro) {
+    return {type: "updateProduct", payload: newPro}
+}
+
+export function galleryData(data) {
+    return {type: "galleryData", payload: data}
+}

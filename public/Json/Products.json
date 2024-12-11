@@ -1,0 +1,41 @@
+[
+  {
+    "image": "https://wrogn.com/cdn/shop/t/139/assets/icon-product-desc.svg?v=5693077646890846751722254987",
+    "title": "Product Description",
+    "tag": "Details and Highlights",
+    "description": "Stay ahead of the storm with our Black Hooded Jacket. This sleek, all-black jacket combines cutting-edge style with weather-ready features, keeping you warm, and undeniably cool."
+  },
+  {
+    "image": "https://wrogn.com/cdn/shop/t/139/assets/icon_manufacturing.svg?v=6601599158665771111724144400",
+    "title": "Manufacturing Details",
+    "tag": "Marketed & Manufactured By",
+    "description": "Sold and marketed by Universal Sportsbiz Pvt Ltd.\n509, CMH Road, Indiranagar 1st Stage, Bengaluru, Karnataka, India - 560038",
+    "description2": "Manufactured and packed by House Of Nisha - Bahadurgarh\nPlot No. 139 D, Second Floor, Sector 7 Phase II, IMT Manesar, Bahadurgarh, Haryana-122050\nGSTIN/UIN: 06AANPS5977R2ZC"
+  },
+  {
+    "image": "https://wrogn.com/cdn/shop/t/139/assets/icon-free-shipping.svg?v=46267501775737040281722254986",
+    "title": "Free Shipping",
+    "tag": "We offer free shipping across India.",
+    "desctitle": "Free Shipping",
+    "description": "We offer free shipping across India.",
+    "desctitle2": "1-2 Days Dispatch",
+    "description2": "We dispatch orders within 1-2 days.",
+    "desctitle3": "2-5 Days Delivery",
+    "description3": "We usually take 2-5 working days depending on your location.",
+    "description4": "Metros: 2-3 days ",
+    "description5": "Rest of India: 3-5 days"
+  },
+  {
+    "image": "https://wrogn.com/cdn/shop/t/139/assets/icon-product-return.svg?v=108704167757555137491722254988",
+    "title": "7 Days Return / Exchange",
+    "tag": "Know about return & exchange policy",
+    "description": "WROGN offers a 7-day return and exchange policy for items purchased on our website, active 24 hours after delivery. Items must be unused, in original condition with tags and packaging intact, and returned within the specified period. Innerwear and socks are non-returnable. A refund, excluding ₹49 delivery charges, will be processed after passing a quality check. Delivery charges are non-refundable for COD orders and prepaid orders below ₹749, and COD is unavailable for orders below ₹499 or above ₹2999.",
+    "description2": "Exchanges are allowed only for size mismatches, subject to stock availability and serviceable locations. If an exchange request is not completed within 7 business days, it will be canceled. Used products are ineligible for return or exchange, and customers will be charged ₹49 for reshipping. This policy does not apply to special offers, and unboxing videos are required for returns or exchanges on damaged or incorrect products.",
+    "description3": "For detailed information, head to the Return, Refund, and Exchange Policy section on our website."
+  },
+  {
+    "image": "https://wrogn.com/cdn/shop/t/139/assets/icon-product-rating.svg?v=152584816743813332711722254987",
+    "title": "Reviews 0/5",
+    "tag": "Based on customer reviews"
+  }
+]
