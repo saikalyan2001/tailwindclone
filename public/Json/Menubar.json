@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "img": "https://cdn.shopify.com/s/files/1/0818/0305/1309/files/ALL-PRODUCTS_1.png?v=1732536077",
+        "type": "ALL PRODUCTS"
+    },
+    {
+        "id": 2,
+        "img": "https://cdn.shopify.com/s/files/1/0818/0305/1309/files/TOPWEAR.png?v=1732536076",
+        "type": "TOPWEAR"
+    },
+    {
+        "id": 3,
+        "img": "https://cdn.shopify.com/s/files/1/0818/0305/1309/files/BOTTOMWEAR.png?v=1732536076",
+        "type": "BOTTOMWEAR"
+    },
+    {
+        "id": 4,
+        "img": "https://cdn.shopify.com/s/files/1/0818/0305/1309/files/Fresharrivals.png?v=1733385272",
+        "type": "FRESH ARRIVALS"
+    },
+    {
+        "id": 5,
+        "img": "https://cdn.shopify.com/s/files/1/0818/0305/1309/files/FOOTWEAR1.png?v=1732536076",
+        "type": "FOOTWEAR"
+    },
+    {
+        "id": 6,
+        "img": "https://cdn.shopify.com/s/files/1/0818/0305/1309/files/ESSENTILS.png?v=1732536076",
+        "type": "ESSENTILS"
+    },
+    {
+        "id": 7,
+        "img": "https://cdn.shopify.com/s/files/1/0818/0305/1309/files/WROGN-COLLAB-GIF.gif?v=1732536076",
+        "type": "COLLABORATIONS" 
+    }
+]

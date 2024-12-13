@@ -16,6 +16,7 @@ import Home from "./Components/Home/Home";
 import Wishlist from "./Components/Wishlist/Wishlist";
 import Profile from "./Components/Profile/Profile";
 import Products from "./Components/Products/Products";
+import Menubar from "./Components/Navbar/Menubar";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/menubar" element={<Menubar />} />
       </Routes>
       <FooterHeader />
       <Footer />

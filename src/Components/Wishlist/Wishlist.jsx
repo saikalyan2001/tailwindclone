@@ -72,13 +72,13 @@ const Wishlist = () => {
 
   return (
     <>
-      <div>
-        <div className="flex gap-4 items-center mx-20 mt-10 ">
-          <h3 className="text-2xl font-bold">WISHLIST </h3>
-          <p className="text-gray-500 text-base font-medium">7 Products</p>
+      <div className="xs:mx-3 md:mx-6 lg:mx-16 xl:mx-20">
+        <div className="flex gap-4 items-center mt-10 xs:mt-6">
+          <h3 className="font-bold xs:text-base lg:text-2xl">WISHLIST </h3>
+          <p className="text-gray-500 font-medium xs:text-sm xl:text-base">7 Products</p>
         </div>
 
-        <div className="grid grid-cols-4 gap-4  mt-10 justify-items-center mx-20">
+        <div className="grid mt-10 justify-items-center xs:grid-cols-2 xs:gap-4 xs:mt-6 md:grid-cols-3 md:mt-10 xl:grid-cols-4">
           {product.length > 0 ? (
             product.map((data, index) => (
               <div key={data.id} className="cursor-pointer" onClick={() => handleNavigation(data)}>
@@ -97,16 +97,16 @@ const Wishlist = () => {
                       handleDelete(data.id);
                     }}
                   >
-                    <CloseOutlined />
+                    <CloseOutlined  />
                   </div>
                 </div>
                 <div className="flex flex-col gap-2 mt-2">
-                  <p className="font-semibold text-lg">
-                    <CurrencyRupeeIcon /> {data.price}
+                  <p className="font-semibold text-lg flex items-center xs:text-sm md:text-base">
+                    <CurrencyRupeeIcon style={{fontSize:"14px"}} /> {data.price}
                   </p>
-                  <p>{data.title}</p>
+                  <p className="xs:text-xs md:text-sm">{data.title}</p>
                   <button
-                    className="border border-gray-400 rounded-lg py-2 px-16 font-semibold"
+                    className="border border-gray-400 rounded-lg py-2 px-16 font-semibold xs:text-xs md:text-base"
                     onClick={(e) => {
                       e.stopPropagation();
                       handleAddtobag(data);

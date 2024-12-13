@@ -172,10 +172,10 @@ const Bag = ({ isOpen, setIsOpen }) => {
       ></div>
 
       {isOpen && (
-        <div className="fixed bg-white text-nowrap top-0 right-0  h-full w-2/5 z-20 overflow-auto">
-          <div className="fixed top-0 bg-white w-2/5 p-6">
-            <div className="flex justify-between">
-              <h3 className="font-semibold text-xl">My Bag</h3>
+        <div className="fixed bg-white text-nowrap top-0 right-0  h-full w-2/5 z-20 overflow-auto xs:w-120 sm:w-11/12 lg:w-2/5">
+          <div className="fixed top-0 z-10  p-4 bg-white xs:w-120 sm:w-11/12 lg:w-2/5">
+            <div className="flex justify-between items-center">
+              <h3 className="font-semibold text-xl xs:text-lg lg:text-xl">My Bag</h3>
               <div onClick={() => setIsOpen(!isOpen)}>
                 <CloseOutlined
                   className="text-gray-700 cursor-pointer"
@@ -186,15 +186,15 @@ const Bag = ({ isOpen, setIsOpen }) => {
           </div>
 
           <div className="bg-green-200 p-2 mt-20">
-            <p className="text-green-900 text-sm font-semibold text-center">
+            <p className="text-green-900 text-sm font-semibold text-center xs:text-xs lg:text-sm">
               Sale ends in <span>05H : 40M : 37S</span>
             </p>
           </div>
 
           {products.map((product, index) => (
-            <div
+              <div
               key={product.id}
-              className="flex gap-4 m-8 p-4 border border-gray-400 rounded-xl w-fit"
+              className="flex gap-4 mt-4 p-3  border border-gray-400 rounded-xl xs:mx-3 xs:w-auto sm:w-auto"
             >
               <img
                 src={product.imageUrl}
@@ -202,25 +202,29 @@ const Bag = ({ isOpen, setIsOpen }) => {
                 className="w-32 rounded-md cursor-pointer"
                 onClick={() => handleProduct(product)}
               />
-              <div className="relative">
-                <div className="flex gap-40">
-                  <p className="font-semibold">
+              <div className="relative xs:w-120 sm:w-11/12">
+                <div className="flex justify-between items-center">
+                  <p className="font-semibold xs:text-sm lg:text-base">
                     <CurrencyRupee fontSize="" />
                     {product.price}
                   </p>
                   <DeleteOutlinedIcon
+                  style={{fontSize: "18px"}}
                     className="text-gray-500 cursor-pointer"
                     onClick={() => handleDelete(product.id)}
                   />
                 </div>
-                <p className="text-gray-900 text-sm mt-2">{product.title}</p>
-                <p className="text-gray-500 text-sm mt-4">Colour : Pink</p>
+       <div className="flex gap-2 items-center lg:flex-col lg:items-start lg:gap-0">
+       <p className="text-gray-900 text-sm mt-2 xs:text-xs lg:text-base">{product.title}</p>
+       <p className="text-gray-500 text-sm mt-4 xs:text-xs lg:text-base">Colour : Pink</p>
+       </div>
+
                 <div className="flex gap-2">
                   <div
                     className="relative flex gap-2 items-center border border-gray-400 font-semibold text-sm w-fit p-1.5 rounded mt-3 cursor-pointer"
                     onClick={() => handleSizeDropDown(index , product.id)}
                   >
-                    <p>
+                    <p className="xs:text-xs lg:text-base">
                       Size:{" "}
                       {newUpdatedSize && newUpdatedIndex === index
                         ? newUpdatedSize
@@ -261,7 +265,7 @@ const Bag = ({ isOpen, setIsOpen }) => {
                           handleDecrement(product.id, product.quantity);
                       }}
                     />
-                    <p>{product.quantity}</p>
+                    <p className="xs:text-xs lg:text-base">{product.quantity}</p>
                     <AddIcon
                       className="text-gray-500 cursor-pointer"
                       style={{ fontSize: "16px" }}
@@ -346,7 +350,7 @@ const Bag = ({ isOpen, setIsOpen }) => {
             </div>
           </div>
 
-          <div className="fixed bottom-0 bg-white w-2/5 z-10">
+          <div className="fixed bottom-0 bg-white z-10 xs:w-120 sm:w-11/12 lg:w-2/5">
             <div className="mb-5 bg-yellow-300 p-2 text-center rounded-tl-xl rounded-tr-xl">
               <p>Yay! You unlocked FREE delivery</p>
             </div>

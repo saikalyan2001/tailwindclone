@@ -25,12 +25,12 @@ useEffect(() => {
   
 
   return (
-    <div className='grid grid-cols-4 gap-4 mt-6'>
+    <div className='grid  gap-4 mt-6 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 '>
 
       {data.map((d) => (
-         <div key={d.id} className='bg-green-900 w-fit p-2.5 rounded-xl'>
+         <div key={d.id} className='bg-green-900  w-fit p-2.5 rounded-xl xs:w-full xs:flex xs:flex-col xs:items-center'>
          <img src={d.image} alt="img" 
-         className='w-64 h-80 rounded-xl border border-yellow-300'
+         className='w-64 h-80 rounded-xl border border-yellow-300 xs:w-full'
          />
          <GalleryFooter footerdata = {d.footer} />
        </div>
